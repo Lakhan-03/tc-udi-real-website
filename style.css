@@ -11,7 +11,10 @@
 .carousel-item img {
     width: 100vw;
     height: 120vh;
-    filter: brightness(70%);
+    filter: brightness(90%);
+    opacity: 0.8;
+    /* background-color: blue;
+    background-blend-mode: multiply; */
 }
 
 .but1 {
@@ -582,7 +585,11 @@
     flex-direction: row;
     justify-content: space-around;
 }
-
+.textwin3{
+    position: absolute;
+    margin-top: -80vh;
+    margin-left: 5%;
+}
 .window2 {
     height: 30%;
     background-color: red;
@@ -593,7 +600,71 @@
 
 /* windows3 */
 .windows3 {
-    background-image: url("koral10.jpg");
-    height: 88vh;
-    width: 98.8vw;
 }
+.window3 img{
+    background-repeat: no-repeat;width: 98.9vw;height: 86%;
+}
+/* windows4 */
+.parawin4{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    margin-top: 7%;
+}
+.prt1win4{
+    /* display: flex; */
+    /* justify-content: space-between; */
+    width: 45vw;
+    margin-left: 10%;
+}
+.prt2win4{
+    /* width: 50vw; */
+    height: 100%;
+    width: 40%;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-right: 10% ;
+}
+
+  .progback {
+    width: 100%;
+    /* height: 20%; */
+    margin: 4px;
+    padding: 1px;
+    background-color: whitesmoke;
+  }
+
+  .prog1,
+  .prog2,
+  .prog3,
+  .prog4 {
+    background-color: salmon;
+    color: white;
+    padding: 3px;
+    display: flex;
+    justify-content: space-between;
+    /* font-weight: bold; */
+  }
+
+  .prog1 {
+    width: 95%;
+  }
+
+  .prog2 {
+    width: 85%;
+  }
+
+  .prog3 {
+    width: 70%;
+  }
+
+  .prog4 {
+    width: 65%;
+  }
+  .prt3win4{
+      display: flex;
+      justify-content: space-evenly;
+      margin-top: 90px;
+  }
