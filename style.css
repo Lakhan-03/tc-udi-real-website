@@ -11,8 +11,8 @@
 .carousel-item img {
     width: 100vw;
     height: 120vh;
-    filter: brightness(90%);
-    opacity: 0.8;
+    /* filter: brightness(90%); */
+    /* opacity: .8; */
     /* background-color: blue;
     background-blend-mode: multiply; */
 }
