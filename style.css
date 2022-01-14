@@ -744,7 +744,7 @@
 
   /* windows5 */
   .windows5{
-      background: url(graphics8.jpg),rgba(42, 46, 130, 0.81);
+      background: url(graphics8.jpg),rgba(22, 28, 135, 0.81);
       background-blend-mode:multiply ;
       height: 43vh;
       width: 98.9vw;
