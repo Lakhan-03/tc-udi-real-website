@@ -190,7 +190,22 @@
     height: 52%;
     width: 15%;
 }
-
+.textnavpage{
+    position:  relative;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: -20px;
+  }
+  .arrow{
+    margin-top: 14px;
+    margin-right: 5px;
+    opacity: 0;
+  }
+  .textnavpage:hover .arrow{
+    opacity: 1;
+    color: salmon;
+    transition: all 1s linear;
+  }
 .pagesdropdown a {
     display: block;
     color: white;
