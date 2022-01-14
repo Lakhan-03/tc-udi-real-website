@@ -592,18 +592,10 @@
 }
 .window2 {
     height: 30%;
-    background-color: whitesmoke;
+    background-color: red;
     display: flex;
     justify-content: space-evenly;
     padding: 7% 0% 11% 0%;
-}
-
-.window2 h5{
-     font-family: 'Montserrat', sans-serif;
-}
-
-.window2 p{
-    font-family: Muli;
 }
 
 /* windows3 */
@@ -676,29 +668,3 @@
       justify-content: space-evenly;
       margin-top: 90px;
   }
-
-  /* windows5 */
-  .windows5{
-      background: url(graphics8.jpg),rgba(42, 46, 130, 0.81);
-      background-blend-mode:multiply ;
-      height: 43vh;
-      width: 98.9vw;
-      background-position: center;
-  }
-.text{
-    color: white;
-    text-align: center;
-    position: relative;
-    top: 25%;
-}
-.text p{
-    color: white;
-    font-size: larger;
-}
-.butwin5{
-border: 2px solid white;
-height: 30px;
-width: 10%;
-border-radius: 20px;
-margin-left: 45%;
-}
